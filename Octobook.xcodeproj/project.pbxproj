@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C80D1D3D1EDB48DB0033E7EC /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80D1D3C1EDB48DB0033E7EC /* SearchVC.swift */; };
+		C850DE1F1EDAF56800E28450 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C850DE1E1EDAF56800E28450 /* AppDelegate.swift */; };
+		C850DE261EDAF56800E28450 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C850DE241EDAF56800E28450 /* Main.storyboard */; };
+		C850DE281EDAF56800E28450 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C850DE271EDAF56800E28450 /* Assets.xcassets */; };
+		C850DE2B1EDAF56800E28450 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C850DE291EDAF56800E28450 /* LaunchScreen.storyboard */; };
+		C8A4FF2E1EDAFBB700DB0AC6 /* PopularBooksVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A4FF2D1EDAFBB700DB0AC6 /* PopularBooksVC.swift */; };
+		C8A4FF301EDAFBFC00DB0AC6 /* BookCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A4FF2F1EDAFBFC00DB0AC6 /* BookCell.swift */; };
+		C8A4FF321EDAFDA900DB0AC6 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A4FF311EDAFDA900DB0AC6 /* Book.swift */; };
+		C8A4FF381EDAFED400DB0AC6 /* ParseUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A4FF371EDAFED400DB0AC6 /* ParseUtil.swift */; };
+		C8A4FF3C1EDB024D00DB0AC6 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A4FF3B1EDB024D00DB0AC6 /* Router.swift */; };
+		C8A4FF401EDB13A400DB0AC6 /* BookDetalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A4FF3F1EDB13A400DB0AC6 /* BookDetalVC.swift */; };
+		C8A4FF441EDB242100DB0AC6 /* WebVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A4FF431EDB242100DB0AC6 /* WebVC.swift */; };
+		C8A4FF461EDB304D00DB0AC6 /* DownloadedBooksVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A4FF451EDB304D00DB0AC6 /* DownloadedBooksVC.swift */; };
+		E068BFFCCE515944D9B52DC6 /* Pods_Octobook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5FB6575F01F4534B1320629 /* Pods_Octobook.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8E3821DCAB707283B06CC84B /* Pods-Octobook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Octobook.release.xcconfig"; path = "Pods/Target Support Files/Pods-Octobook/Pods-Octobook.release.xcconfig"; sourceTree = "<group>"; };
+		A02DD3C787D0FAB85C7AB010 /* Pods-Octobook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Octobook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Octobook/Pods-Octobook.debug.xcconfig"; sourceTree = "<group>"; };
+		C80D1D3C1EDB48DB0033E7EC /* SearchVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchVC.swift; path = controllers/SearchVC.swift; sourceTree = "<group>"; };
+		C850DE1B1EDAF56800E28450 /* Octobook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Octobook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C850DE1E1EDAF56800E28450 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C850DE251EDAF56800E28450 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C850DE271EDAF56800E28450 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C850DE2A1EDAF56800E28450 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C850DE2C1EDAF56800E28450 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8A4FF2D1EDAFBB700DB0AC6 /* PopularBooksVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PopularBooksVC.swift; path = controllers/PopularBooksVC.swift; sourceTree = "<group>"; };
+		C8A4FF2F1EDAFBFC00DB0AC6 /* BookCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookCell.swift; sourceTree = "<group>"; };
+		C8A4FF311EDAFDA900DB0AC6 /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Book.swift; path = model/Book.swift; sourceTree = "<group>"; };
+		C8A4FF371EDAFED400DB0AC6 /* ParseUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseUtil.swift; sourceTree = "<group>"; };
+		C8A4FF3B1EDB024D00DB0AC6 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		C8A4FF3F1EDB13A400DB0AC6 /* BookDetalVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BookDetalVC.swift; path = controllers/BookDetalVC.swift; sourceTree = "<group>"; };
+		C8A4FF431EDB242100DB0AC6 /* WebVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebVC.swift; path = controllers/WebVC.swift; sourceTree = "<group>"; };
+		C8A4FF451EDB304D00DB0AC6 /* DownloadedBooksVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DownloadedBooksVC.swift; path = controllers/DownloadedBooksVC.swift; sourceTree = "<group>"; };
+		E5FB6575F01F4534B1320629 /* Pods_Octobook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Octobook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C850DE181EDAF56800E28450 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E068BFFCCE515944D9B52DC6 /* Pods_Octobook.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B1B7413A7598E937941763CC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A02DD3C787D0FAB85C7AB010 /* Pods-Octobook.debug.xcconfig */,
+				8E3821DCAB707283B06CC84B /* Pods-Octobook.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C850DE121EDAF56800E28450 = {
+			isa = PBXGroup;
+			children = (
+				C850DE1D1EDAF56800E28450 /* Octobook */,
+				C850DE1C1EDAF56800E28450 /* Products */,
+				B1B7413A7598E937941763CC /* Pods */,
+				E7EC260D6824B0BC3C742583 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C850DE1C1EDAF56800E28450 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C850DE1B1EDAF56800E28450 /* Octobook.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C850DE1D1EDAF56800E28450 /* Octobook */ = {
+			isa = PBXGroup;
+			children = (
+				C8A4FF361EDAFEC700DB0AC6 /* Utils */,
+				C8A4FF351EDAFEB700DB0AC6 /* controllers */,
+				C8A4FF341EDAFEAE00DB0AC6 /* view */,
+				C8A4FF331EDAFDBA00DB0AC6 /* model */,
+				C850DE1E1EDAF56800E28450 /* AppDelegate.swift */,
+				C850DE241EDAF56800E28450 /* Main.storyboard */,
+				C850DE271EDAF56800E28450 /* Assets.xcassets */,
+				C850DE291EDAF56800E28450 /* LaunchScreen.storyboard */,
+				C850DE2C1EDAF56800E28450 /* Info.plist */,
+			);
+			path = Octobook;
+			sourceTree = "<group>";
+		};
+		C8A4FF331EDAFDBA00DB0AC6 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				C8A4FF311EDAFDA900DB0AC6 /* Book.swift */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		C8A4FF341EDAFEAE00DB0AC6 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				C8A4FF2F1EDAFBFC00DB0AC6 /* BookCell.swift */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		C8A4FF351EDAFEB700DB0AC6 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C80D1D3C1EDB48DB0033E7EC /* SearchVC.swift */,
+				C8A4FF431EDB242100DB0AC6 /* WebVC.swift */,
+				C8A4FF3F1EDB13A400DB0AC6 /* BookDetalVC.swift */,
+				C8A4FF2D1EDAFBB700DB0AC6 /* PopularBooksVC.swift */,
+				C8A4FF451EDB304D00DB0AC6 /* DownloadedBooksVC.swift */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
+		C8A4FF361EDAFEC700DB0AC6 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C8A4FF371EDAFED400DB0AC6 /* ParseUtil.swift */,
+				C8A4FF3B1EDB024D00DB0AC6 /* Router.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		E7EC260D6824B0BC3C742583 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5FB6575F01F4534B1320629 /* Pods_Octobook.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C850DE1A1EDAF56800E28450 /* Octobook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C850DE2F1EDAF56800E28450 /* Build configuration list for PBXNativeTarget "Octobook" */;
+			buildPhases = (
+				A021477611FDA6FAAFEFB972 /* [CP] Check Pods Manifest.lock */,
+				C850DE171EDAF56800E28450 /* Sources */,
+				C850DE181EDAF56800E28450 /* Frameworks */,
+				C850DE191EDAF56800E28450 /* Resources */,
+				EA8DC19160A553C43832E451 /* [CP] Embed Pods Frameworks */,
+				B2D3E778AAFB0202B7A79C30 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Octobook;
+			productName = Octobook;
+			productReference = C850DE1B1EDAF56800E28450 /* Octobook.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C850DE131EDAF56800E28450 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = XueYu;
+				TargetAttributes = {
+					C850DE1A1EDAF56800E28450 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = L2UHX34QKF;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C850DE161EDAF56800E28450 /* Build configuration list for PBXProject "Octobook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C850DE121EDAF56800E28450;
+			productRefGroup = C850DE1C1EDAF56800E28450 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C850DE1A1EDAF56800E28450 /* Octobook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C850DE191EDAF56800E28450 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C850DE2B1EDAF56800E28450 /* LaunchScreen.storyboard in Resources */,
+				C850DE281EDAF56800E28450 /* Assets.xcassets in Resources */,
+				C850DE261EDAF56800E28450 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A021477611FDA6FAAFEFB972 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B2D3E778AAFB0202B7A79C30 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Octobook/Pods-Octobook-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA8DC19160A553C43832E451 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Octobook/Pods-Octobook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C850DE171EDAF56800E28450 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8A4FF301EDAFBFC00DB0AC6 /* BookCell.swift in Sources */,
+				C8A4FF401EDB13A400DB0AC6 /* BookDetalVC.swift in Sources */,
+				C8A4FF2E1EDAFBB700DB0AC6 /* PopularBooksVC.swift in Sources */,
+				C8A4FF3C1EDB024D00DB0AC6 /* Router.swift in Sources */,
+				C8A4FF381EDAFED400DB0AC6 /* ParseUtil.swift in Sources */,
+				C8A4FF461EDB304D00DB0AC6 /* DownloadedBooksVC.swift in Sources */,
+				C80D1D3D1EDB48DB0033E7EC /* SearchVC.swift in Sources */,
+				C8A4FF441EDB242100DB0AC6 /* WebVC.swift in Sources */,
+				C8A4FF321EDAFDA900DB0AC6 /* Book.swift in Sources */,
+				C850DE1F1EDAF56800E28450 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C850DE241EDAF56800E28450 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C850DE251EDAF56800E28450 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C850DE291EDAF56800E28450 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C850DE2A1EDAF56800E28450 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C850DE2D1EDAF56800E28450 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C850DE2E1EDAF56800E28450 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C850DE301EDAF56800E28450 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A02DD3C787D0FAB85C7AB010 /* Pods-Octobook.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L2UHX34QKF;
+				INFOPLIST_FILE = Octobook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xueyu.Octobook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C850DE311EDAF56800E28450 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E3821DCAB707283B06CC84B /* Pods-Octobook.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L2UHX34QKF;
+				INFOPLIST_FILE = Octobook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xueyu.Octobook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C850DE161EDAF56800E28450 /* Build configuration list for PBXProject "Octobook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C850DE2D1EDAF56800E28450 /* Debug */,
+				C850DE2E1EDAF56800E28450 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C850DE2F1EDAF56800E28450 /* Build configuration list for PBXNativeTarget "Octobook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C850DE301EDAF56800E28450 /* Debug */,
+				C850DE311EDAF56800E28450 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C850DE131EDAF56800E28450 /* Project object */;
+}

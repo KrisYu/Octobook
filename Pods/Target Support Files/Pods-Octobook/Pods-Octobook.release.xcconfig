@@ -1,0 +1,13 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
+FRAMEWORK_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/AEXML" "$PODS_CONFIGURATION_BUILD_DIR/Alamofire" "$PODS_CONFIGURATION_BUILD_DIR/BRYXBanner" "$PODS_CONFIGURATION_BUILD_DIR/FolioReaderKit" "$PODS_CONFIGURATION_BUILD_DIR/FontBlaster" "$PODS_CONFIGURATION_BUILD_DIR/Fuzi" "$PODS_CONFIGURATION_BUILD_DIR/JSQWebViewController" "$PODS_CONFIGURATION_BUILD_DIR/MenuItemKit" "$PODS_CONFIGURATION_BUILD_DIR/Realm" "$PODS_CONFIGURATION_BUILD_DIR/RealmSwift" "$PODS_CONFIGURATION_BUILD_DIR/SSZipArchive" "$PODS_CONFIGURATION_BUILD_DIR/ZFDragableModalTransition"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(SDKROOT)/usr/include/libxml2
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_CFLAGS = $(inherited) -iquote "$PODS_CONFIGURATION_BUILD_DIR/AEXML/AEXML.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/Alamofire/Alamofire.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/BRYXBanner/BRYXBanner.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/FolioReaderKit/FolioReaderKit.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/FontBlaster/FontBlaster.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/Fuzi/Fuzi.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/JSQWebViewController/JSQWebViewController.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/MenuItemKit/MenuItemKit.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/Realm/Realm.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/RealmSwift/RealmSwift.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/SSZipArchive/SSZipArchive.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/ZFDragableModalTransition/ZFDragableModalTransition.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -ObjC -framework "AEXML" -framework "Alamofire" -framework "BRYXBanner" -framework "FolioReaderKit" -framework "FontBlaster" -framework "Fuzi" -framework "JSQWebViewController" -framework "MenuItemKit" -framework "Realm" -framework "RealmSwift" -framework "SSZipArchive" -framework "ZFDragableModalTransition"
+OTHER_SWIFT_FLAGS = $(inherited) "-D" "COCOAPODS"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
+SWIFT_INCLUDE_PATHS = $(SRCROOT)/Fuzi/libxml2

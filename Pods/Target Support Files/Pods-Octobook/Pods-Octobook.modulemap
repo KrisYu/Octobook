@@ -1,0 +1,6 @@
+framework module Pods_Octobook {
+  umbrella header "Pods-Octobook-umbrella.h"
+
+  export *
+  module * { export * }
+}
