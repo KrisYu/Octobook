@@ -43,3 +43,14 @@ p.s.
 
 1. not good code, mix the network model in controller.
 2. didn't follow the rule - DRY(don't repeat yourself), want to seperate the network but didn't find a good way, so some code are repeated in the popular books controller and searh controller
+
+
+If you have any good idea on how to organize and seperate the code more elegantly, welcome pull requests or [contact me](mailto:yu_xue@me?Subject=Code%20Suggestions).
+
+### Thanks
+
+- CocoaPods
+- Alamofire
+- Fuzi
+- BRYXBanner
+- FolioReaderKit

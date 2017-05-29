@@ -84,7 +84,6 @@ class BookDetalVC: UITableViewController {
                 Alamofire.download(epubDownUrl, method: .get, parameters: nil, encoding: JSONEncoding.default, to: destination)
                     .downloadProgress(queue: DispatchQueue.global(qos: .utility)) { progress in
                         print("Progress: \(progress.fractionCompleted)")
-                        self.downloadBanner?.titleLabel.text = "Downloading Book Now \(progress.fractionCompleted)%"
 
                     }
                     .validate { request, response, temporaryURL, destinationURL in
