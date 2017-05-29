@@ -1,11 +1,11 @@
-#Octobook
+# Octobook
 
 Octobook is a simple [Gitbook](https://www.gitbook.com) App that offers offline/online gitbooks reading.
 
 ### Features
 
-![](screenshots/screenshot1.png)
-![](screenshots/screenshot2.png)
+![screenshot1](https://github.com/KrisYu/Octobook/blob/master/screenshots/screenshot1.png?raw=true)
+![screenshot2](https://github.com/KrisYu/Octobook/blob/master/screenshots/screenshot2.png?raw=true)
 
 
 - check the most popular books
@@ -20,7 +20,7 @@ This is just an experiment learning more about iOS development and Cocopods 3rd 
 
 All the UI related thing is done using Storyboard.
 
-![](screenshots/storyboard.png)
+![storyboard](https://github.com/KrisYu/Octobook/blob/master/screenshots/storyboard.png?raw=true)
 
 
 ### Build
