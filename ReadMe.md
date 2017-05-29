@@ -1,6 +1,6 @@
 # Octobook
 
-Octobook is a simple [Gitbook](https://www.gitbook.com) App that offers offline/online gitbooks reading.
+Octobook is a simple App that offers offline/online [gitbooks](https://www.gitbook.com) reading.
 
 ### Features
 
